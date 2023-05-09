@@ -33,28 +33,28 @@ public class DoWhileSample {
             switch (menu) {
                 case 1:
                     System.out.println("와퍼를 선택하셨습니다. 가격: 6400원");
-                    totalPrice += 5000;
+                    totalPrice += 6400;
                     break;
                 case 2:
                     System.out.println("치즈와퍼를 선택하셨습니다. 가격: 7000원");
-                    totalPrice += 6000;
+                    totalPrice += 7000;
                     break;
                 case 3:
                     System.out.println("통새우와퍼를 선택하셨습니다. 가격: 8900원");
-                    totalPrice += 8000;
+                    totalPrice += 8900;
                     break;
                 case 4:
                     System.out.println("치즈스틱을 선택하셨습니다. 가격: 2500원");
-                    totalPrice += 1500;
+                    totalPrice += 2500;
                     break;
                 case 5:
                     System.out.println("주문을 종료합니다.");
                     isRunning = false;
                     break;
                 default:
-                    System.out.println("잘못된 메뉴 선택입니다.");
+                    System.out.println("메뉴를 잘못 선택했습니다.");
                     break;
-                    
+
             }
 
             System.out.println();
