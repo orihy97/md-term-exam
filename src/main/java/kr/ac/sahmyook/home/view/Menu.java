@@ -215,7 +215,6 @@ public class Menu {
         Scanner scanner = new Scanner(System.in);
         int menuNo;
         do {
-            // 메뉴 출력
             System.out.println("for문 테스트 부메뉴");
             System.out.println("1. 1~10까지 정수들의 합계 구하기");
             System.out.println("2. 1~100사이의 짝수들의 합게 구하기");
@@ -270,7 +269,6 @@ public class Menu {
         int menuNo;
 
         do {
-            // 메뉴 출력
             System.out.println("*** while문 테스트 부메뉴 ***");
             System.out.println("1. 문자 하나 입력받아, 그 문자의 유니코드 출력 반복('0' 입력되면 반복종료)");
             System.out.println("2. 1~100까지 정수들의 합계 출력하기(while 문으로 작성)");
@@ -280,11 +278,9 @@ public class Menu {
             System.out.println("6. 이전 메뉴로 가기");
             System.out.print("메뉴 선택 : ");
 
-            // 사용자가 선택한 메뉴 번호 입력받기
             Scanner sc = new Scanner(System.in);
             menuNo = sc.nextInt();
 
-            // 선택된 메뉴 번호에 따라 해당 메소드 실행
             switch (menuNo) {
                 case 1:
                     ws.printUniCode();
@@ -313,10 +309,9 @@ public class Menu {
     public void subDoWhileMenu(){
         DoWhileSample dws = new DoWhileSample(); // DoWhileSample 클래스 객체 생성
 
-        int no; // 선택한 메뉴 번호를 저장할 변수
+        int no;
 
         do {
-            // 메뉴 출력
             System.out.println("*** do~while문 테스트 부메뉴 ***");
             System.out.println("1. 문자열값 입력받아, 문자 사이에 '-' 끼워넣어 출력하기");
             System.out.println("2. 버거킹 메뉴 주문 테스트(버거킹 메뉴 출력하고 반복적으로 메뉴를 선택 받아 최종적으로 선택한 메뉴들과 총 가격 출력하기)");
