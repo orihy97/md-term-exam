@@ -21,38 +21,33 @@ public class DoWhileSample {
         int totalPrice = 0;
 
         while (isRunning) {
-            System.out.println("*** 버거킹 메뉴 ***");
-            System.out.println("1. 와퍼: 5000원");
-            System.out.println("2. 치즈와퍼: 6000원");
-            System.out.println("3. 트러플와퍼: 8000원");
-            System.out.println("4. 콜라: 1500원");
-            System.out.println("5. 사이다: 1500원");
-            System.out.println("6. 주문 종료");
+            System.out.println("버거킹 메뉴");
+            System.out.println("1. 와퍼: 6400원");
+            System.out.println("2. 치즈와퍼: 7000원");
+            System.out.println("3. 통새우와퍼: 8900원");
+            System.out.println("4. 치즈스틱: 2500원");
+            System.out.println("5. 주문 종료");
             System.out.print("메뉴 선택: ");
             int menu = scanner.nextInt();
 
             switch (menu) {
                 case 1:
-                    System.out.println("와퍼를 선택하셨습니다. 가격: 5000원");
+                    System.out.println("와퍼를 선택하셨습니다. 가격: 6400원");
                     totalPrice += 5000;
                     break;
                 case 2:
-                    System.out.println("치즈와퍼를 선택하셨습니다. 가격: 6000원");
+                    System.out.println("치즈와퍼를 선택하셨습니다. 가격: 7000원");
                     totalPrice += 6000;
                     break;
                 case 3:
-                    System.out.println("트러플와퍼를 선택하셨습니다. 가격: 8000원");
+                    System.out.println("통새우와퍼를 선택하셨습니다. 가격: 8900원");
                     totalPrice += 8000;
                     break;
                 case 4:
-                    System.out.println("콜라를 선택하셨습니다. 가격: 1500원");
+                    System.out.println("치즈스틱을 선택하셨습니다. 가격: 2500원");
                     totalPrice += 1500;
                     break;
                 case 5:
-                    System.out.println("사이다를 선택하셨습니다. 가격: 1500원");
-                    totalPrice += 1500;
-                    break;
-                case 6:
                     System.out.println("주문을 종료합니다.");
                     isRunning = false;
                     break;

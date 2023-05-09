@@ -3,6 +3,7 @@ package kr.ac.sahmyook.home.func;
 import java.util.Scanner;
 
 public class ForSample {
+
     public void sum1To10() {
         int sum = 0;
         for (int i = 1; i <= 10; i++) {
@@ -75,14 +76,14 @@ public class ForSample {
         System.out.print("출력할 줄 수를 입력하세요: ");
         int n = scanner.nextInt();
 
-        if (n > 0) { // 직각삼각형
+        if (n > 0) {
             for (int i = 1; i <= n; i++) {
                 for (int j = 1; j <= i; j++) {
                     System.out.print("*");
                 }
                 System.out.println();
             }
-        } else { // 역삼각형
+        } else {
             n = -n;
             for (int i = n; i >= 1; i--) {
                 for (int j = 1; j <= i; j++) {
@@ -96,7 +97,7 @@ public class ForSample {
     public void guguDan() {
         for (int i = 2; i <= 9; i++) {
             for (int j = 1; j <= 9; j++) {
-                System.out.print(i + "x" + j + "=" + (i * j) + "\t");
+                System.out.print(i + " x " + j + " = " + (i * j) + "\t");
             }
             System.out.println();
         }
