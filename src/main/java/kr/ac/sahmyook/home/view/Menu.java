@@ -216,7 +216,7 @@ public class Menu {
         int menuNo;
         do {
             // 메뉴 출력
-            System.out.println("*** for문 테스트 부메뉴 ***");
+            System.out.println("for문 테스트 부메뉴");
             System.out.println("1. 1~10까지 정수들의 합계 구하기");
             System.out.println("2. 1~100사이의 짝수들의 합게 구하기");
             System.out.println("3. 정수 하나 입력받아, 그 수의 구구단 출력하기");
