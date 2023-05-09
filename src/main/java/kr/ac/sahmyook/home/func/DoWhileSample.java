@@ -54,6 +54,7 @@ public class DoWhileSample {
                 default:
                     System.out.println("잘못된 메뉴 선택입니다.");
                     break;
+                    
             }
 
             System.out.println();
